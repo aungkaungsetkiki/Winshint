@@ -10,11 +10,11 @@
     
     try {
         const response = await fetch(
-            `https://stzepyuibjtoohofafue.supabase.co/rest/v1/Login?name=eq.${encodeURIComponent(savedName)}&pw=eq.${encodeURIComponent(savedPassword)}`,
+            `https://rqzzpvxyixdidmzaycwj.supabase.co/rest/v1/Login?name=eq.${encodeURIComponent(savedName)}&pw=eq.${encodeURIComponent(savedPassword)}`,
             {
                 headers: {
-                    'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN0emVweXVpYmp0b29ob2ZhZnVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzNzQ5NzUsImV4cCI6MjA4MDk1MDk3NX0.Tgj1sJfBGQP9KbK5NzahlBoFU9121osc_FEvTsr47eQ',
-                    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN0emVweXVpYmp0b29ob2ZhZnVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUzNzQ5NzUsImV4cCI6MjA4MDk1MDk3NX0.Tgj1sJfBGQP9KbK5NzahlBoFU9121osc_FEvTsr47eQ'
+                    'apikey': 'sb_publishable_LDhEi89gG0h6XmRTDxLiCw_B7t-iMK5',
+                    'Authorization': 'Bearer sb_publishable_LDhEi89gG0h6XmRTDxLiCw_B7t-iMK5'
                 }
             }
         );
